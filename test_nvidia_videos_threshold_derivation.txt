@@ -1,0 +1,67 @@
+Cars Still; No movement:
+./displayimg res/car_movement/image-01.jpeg res/car_movement/image-01.jpeg
+wa = 0.000000 waB=0.000000 waG=0.000000 waR=0.000000
+
+Car Still; Leaves Flutter
+./displayimg res/car_still_leaves_flutter/1080p_WALSH_ST_004_00001.jpeg ./res/car_still_leaves_flutter/1080p_WALSH_ST_004_00002.jpeg
+wa = 3.138610 waB=3.376294 waG=3.376294 waR=3.018810
+
+
+Car Moves Considerably (day time)
+./displayimg res/car_movement/image-01.jpeg res/car_movement/image-02.jpeg
+wa = 7.843148 waB=7.785886 waG=7.785886 waR=7.914466
+
+Car Moves Considerably at night
+./displayimg res/car_movement_night/image-37.jpeg res/car_movement_night/image-38.jpeg
+wa = 7.750878 waB=8.854712 waG=8.854712 waR=6.790005
+
+Car Moves very far (night and moves far away; ped moving in crosswalk)
+./displayimg res/car_movement_2/image-12087.jpeg res/car_movement_2/image-12088.jpeg
+wa = 2.590155 waB=2.670901 waG=2.670901 waR=2.616565
+
+
+Car Moves closer to camera (night)
+./displayimg res/car_movement_night_win_closer_to_cam/image-12136.jpeg res/car_movement_night_win_closer_to_cam/image-12137.jpeg
+wa = 7.291194 waB=7.226200 waG=7.226200 waR=7.946122
+
+
+Car Moves closer to camera (night; but Black cars!)
+./displayimg res/car_movement_night_win_closer_to_cam_black_car/image-12116.jpeg res/car_movement_night_win_closer_to_cam_black_car/image-12117.jpeg
+wa = 6.275458 waB=6.349141 waG=6.349141 waR=6.533145
+
+
+Car Moves closer to camera (night; but Black single car)
+./displayimg res/car_movement_night_win_closer_to_cam_black_single_car/image-12101.jpeg res/car_movement_night_win_closer_to_cam_black_single_car/image-12102.jpeg
+wa = 5.298785 waB=5.694965 waG=5.694965 waR=5.201448
+
+Car Moves at Intersection (day)
+./displayimg res/car_movement_day_win_at_intersection/image-04.jpeg res/car_movement_day_win_at_intersection/image-05.jpeg
+wa = 8.107221 waB=8.169000 waG=8.169000 waR=8.205112
+
+
+Car Still (night; but good lighting; WALSH)
+./displayimg res/car_still_no_car_night_walsh/image-59.jpeg res/car_still_no_car_night_walsh/image-60.jpeg 
+wa = 3.414570 waB=3.438026 waG=3.438026 waR=3.407182
+
+
+Car Still (night; WALSH)
+./displayimg res/car_still_night_walsh_1_car/image-335.jpeg res/car_still_night_walsh_1_car/image-336.jpeg
+wa = 3.636162 waB=3.849579 waG=3.849579 waR=3.523131
+
+Car Still (night; WALSH; no cars)
+./displayimg res/car_still_night_walsh_no_cars/image-459.jpeg res/car_still_night_walsh_no_cars/image-460.jpeg
+wa = 2.945403 waB=3.076280 waG=3.076280 waR=2.878136
+
+Car Move (night; WALSH - 2 cars (1 still))
+./displayimg res/car_movement_night_walsh_2_cars/image-339.jpeg res/car_movement_night_walsh_2_cars/image-340.jpeg
+wa = 4.141714 waB=5.020983 waG=5.020983 waR=3.506906
+
+Car Moving away from camera (night; WALSH - only one car on street)
+./displayimg res/car_moving_night_welsh_far_from_cam/image-1130.jpeg res/car_moving_night_welsh_far_from_cam/image-1131.jpeg
+wa = 3.472902 waB=3.743649 waG=3.743649 waR=3.161726
+
+
+
+
+
+From all the tests, we can confirm to safely use a threshold of 3.800000 
